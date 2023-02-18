@@ -1,0 +1,30 @@
+{
+  "name": "berg",
+  "version": "1.0.0",
+  "private": true,
+  "homepage": "https://github.com/hata6502/berg#readme",
+  "bugs": {
+    "url": "https://github.com/hata6502/berg/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hata6502/berg.git"
+  },
+  "author": "Tomoyuki Hata",
+  "scripts": {
+    "build": "webpack",
+    "dev": "http-server -c-1 dist",
+    "test": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/react-dom": "^18.0.6",
+    "copy-webpack-plugin": "^11.0.0",
+    "http-server": "^14.1.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.7.4",
+    "webpack": "^5.73.0",
+    "webpack-cli": "^4.10.0"
+  }
+}

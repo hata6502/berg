@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "jsx": "react-jsx",
+    "lib": ["ES2021", "DOM", "DOM.Iterable", "WebWorker"],
+    "module": "es2022",
+    "moduleResolution": "node",
+    "pretty": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2021"
+  }
+}
