@@ -274,7 +274,7 @@ const App: FunctionComponent = () => {
         </p>
 
         <p>
-          2022&nbsp;
+          2023&nbsp;
           <a
             href="https://twitter.com/hata6502"
             rel="noopener noreferrer"
