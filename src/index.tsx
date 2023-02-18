@@ -42,6 +42,10 @@ const App: FunctionComponent = () => {
               bergを使う
             </button>
           </a>
+          &nbsp;
+          <a href="javascript:open(%60https%3A%2F%2Fberg.hata6502.com%2F%3F%24%7Bnew%20URLSearchParams(%5B%5B%22url%22%2Clocation.href%5D%5D).toString()%7D%60)%3Bvoid(0);">
+            bookmarklet
+          </a>
         </p>
         <p>
           <img src="https://i.gyazo.com/9983228ed3ce0a220ae6f7b669bba31a.png" />
@@ -270,6 +274,10 @@ const App: FunctionComponent = () => {
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               bergを使う
             </button>
+          </a>
+          &nbsp;
+          <a href="javascript:open(%60https%3A%2F%2Fberg.hata6502.com%2F%3F%24%7Bnew%20URLSearchParams(%5B%5B%22url%22%2Clocation.href%5D%5D).toString()%7D%60)%3Bvoid(0);">
+            bookmarklet
           </a>
         </p>
 
