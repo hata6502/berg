@@ -322,6 +322,7 @@ const Upload: FunctionComponent<{ code: string; state: string }> = ({
         `https://lkhdmrehz0.execute-api.us-east-1.amazonaws.com/?${new URLSearchParams(
           [
             ["code", code],
+            ["language", navigator.language],
             ["url", state],
           ]
         ).toString()}`,
@@ -336,7 +337,7 @@ const Upload: FunctionComponent<{ code: string; state: string }> = ({
     })();
 
     return () => abortController.abort();
-  }, [code, state]);
+  }, [code, navigator.language, state]);
 
   return <>{message}</>;
 };
