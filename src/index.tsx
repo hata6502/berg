@@ -76,11 +76,21 @@ const App: FunctionComponent = () => {
 
             <li className="w-28 mr-4">
               <a
-                href="https://ja.wikipedia.org/"
+                href="https://www.youtube.com/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Wikipedia
+                YouTube
+              </a>
+            </li>
+
+            <li className="w-28 mr-4">
+              <a
+                href="https://www.nicovideo.jp/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                ニコニコ
               </a>
             </li>
 
@@ -106,21 +116,21 @@ const App: FunctionComponent = () => {
 
             <li className="w-28 mr-4">
               <a
-                href="https://www.youtube.com/"
+                href="https://www.google.co.jp/maps/?hl=ja"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                YouTube
+                Google マップ
               </a>
             </li>
 
             <li className="w-28 mr-4">
               <a
-                href="https://www.nicovideo.jp/"
+                href="https://www.jalan.net/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                ニコニコ
+                じゃらん
               </a>
             </li>
 
@@ -146,36 +156,6 @@ const App: FunctionComponent = () => {
 
             <li className="w-28 mr-4">
               <a
-                href="https://www.hotpepper.jp/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                ホットペッパーグルメ
-              </a>
-            </li>
-
-            <li className="w-28 mr-4">
-              <a
-                href="https://www.jalan.net/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                じゃらん
-              </a>
-            </li>
-
-            <li className="w-28 mr-4">
-              <a
-                href="https://chiebukuro.yahoo.co.jp/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Yahoo!知恵袋
-              </a>
-            </li>
-
-            <li className="w-28 mr-4">
-              <a
                 href="https://www.fashionsnap.com/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -186,11 +166,11 @@ const App: FunctionComponent = () => {
 
             <li className="w-28 mr-4">
               <a
-                href="https://www.uniqlo.com/jp/ja/"
+                href="https://www.lawson.co.jp/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                UNIQLO
+                LAWSON
               </a>
             </li>
 
@@ -206,11 +186,31 @@ const App: FunctionComponent = () => {
 
             <li className="w-28 mr-4">
               <a
+                href="https://chiebukuro.yahoo.co.jp/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Yahoo!知恵袋
+              </a>
+            </li>
+
+            <li className="w-28 mr-4">
+              <a
                 href="https://note.com/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
                 note
+              </a>
+            </li>
+
+            <li className="w-28 mr-4">
+              <a
+                href="https://zukan.com/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                ズカンドットコム
               </a>
             </li>
 
@@ -226,11 +226,11 @@ const App: FunctionComponent = () => {
 
             <li className="w-28 mr-4">
               <a
-                href="https://zukan.com/"
+                href="https://ja.wikipedia.org/"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                ズカンドットコム
+                Wikipedia
               </a>
             </li>
 
