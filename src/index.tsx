@@ -176,16 +176,6 @@ const App: FunctionComponent = () => {
 
             <li className="w-28 mr-4">
               <a
-                href="https://scrapbox.io/"
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                Scrapbox
-              </a>
-            </li>
-
-            <li className="w-28 mr-4">
-              <a
                 href="https://chiebukuro.yahoo.co.jp/"
                 rel="noopener noreferrer"
                 target="_blank"
@@ -201,6 +191,16 @@ const App: FunctionComponent = () => {
                 target="_blank"
               >
                 note
+              </a>
+            </li>
+
+            <li className="w-28 mr-4">
+              <a
+                href="https://scrapbox.io/"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                Scrapbox
               </a>
             </li>
 
