@@ -116,21 +116,21 @@ const App: FunctionComponent = () => {
 
             <li className="w-28 mr-4">
               <a
-                href="https://www.google.co.jp/maps/?hl=ja"
+                href="https://www.ubereats.com/jp"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                Google マップ
+                Uber Eats
               </a>
             </li>
 
             <li className="w-28 mr-4">
               <a
-                href="https://www.jalan.net/"
+                href="https://www.google.co.jp/maps/?hl=ja"
                 rel="noopener noreferrer"
                 target="_blank"
               >
-                じゃらん
+                Google マップ
               </a>
             </li>
 
