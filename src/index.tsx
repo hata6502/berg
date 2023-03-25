@@ -319,13 +319,11 @@ const Upload: FunctionComponent<{ code: string; state: string }> = ({
 
     (async () => {
       const uploadResponse = await fetch(
-        `https://lkhdmrehz0.execute-api.us-east-1.amazonaws.com/?${new URLSearchParams(
-          [
-            ["code", code],
-            ["language", navigator.language],
-            ["url", state],
-          ]
-        ).toString()}`,
+        `https://proxy-gczpvmwx7q-uc.a.run.app/?${new URLSearchParams([
+          ["code", code],
+          ["language", navigator.language],
+          ["url", state],
+        ]).toString()}`,
         { signal: abortController.signal }
       );
       if (!uploadResponse.ok) {
