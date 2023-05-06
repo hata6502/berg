@@ -43,7 +43,11 @@ const App: FunctionComponent = () => {
             </button>
           </a>
           &nbsp;
-          <a href="javascript:open(%60https%3A%2F%2Fberg.hata6502.com%2F%3F%24%7Bnew%20URLSearchParams(%5B%5B%22url%22%2Clocation.href%5D%5D).toString()%7D%60)%3Bvoid(0);">
+          <a
+            href="javascript:open(%60https%3A%2F%2Fberg.hata6502.com%2F%3F%24%7Bnew%20URLSearchParams(%5B%5B%22url%22%2Clocation.href%5D%5D).toString()%7D%60)%3Bvoid(0);"
+            target="_blank"
+            rel="noopener"
+          >
             bookmarklet
           </a>
         </p>
@@ -276,7 +280,11 @@ const App: FunctionComponent = () => {
             </button>
           </a>
           &nbsp;
-          <a href="javascript:open(%60https%3A%2F%2Fberg.hata6502.com%2F%3F%24%7Bnew%20URLSearchParams(%5B%5B%22url%22%2Clocation.href%5D%5D).toString()%7D%60)%3Bvoid(0);">
+          <a
+            href="javascript:open(%60https%3A%2F%2Fberg.hata6502.com%2F%3F%24%7Bnew%20URLSearchParams(%5B%5B%22url%22%2Clocation.href%5D%5D).toString()%7D%60)%3Bvoid(0);"
+            target="_blank"
+            rel="noopener"
+          >
             bookmarklet
           </a>
         </p>
