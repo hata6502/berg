@@ -37,7 +37,7 @@ const App: FunctionComponent = () => {
           で「いいね」できます。 誰にも公開されない自分用の「いいね」機能です。
         </p>
         <p>
-          <a href="https://helpfeel.com/hata6502/berg-63f13f12da95ab001b2a56e8">
+          <a href="https://scrapbox.io/hata6502/berg">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               bergを使う
             </button>
@@ -270,7 +270,7 @@ const App: FunctionComponent = () => {
         </p>
 
         <p>
-          <a href="https://helpfeel.com/hata6502/berg-63f13f12da95ab001b2a56e8">
+          <a href="https://scrapbox.io/hata6502/berg">
             <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               bergを使う
             </button>
